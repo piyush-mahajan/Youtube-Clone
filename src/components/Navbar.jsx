@@ -16,8 +16,14 @@ const Navbar = () => (
       justifyContent: "space-between",
     }}
   >
-    <Link to="/" style={{ display: "flex", alignItems: "center" }}>
+       <Link to="/" style={{ display: "flex", alignItems: "center" }}>
       <img src={logo} alt="logo" height={45} />
+      <div style={{ color: "white" }}>
+        made by{" "}
+        <a style={{ color: "red" }} href="https://piyushmahajan.vercel.app">
+          Piyush Mahajan
+        </a>
+      </div>
     </Link>
     <SearchBar />
   </Stack>
